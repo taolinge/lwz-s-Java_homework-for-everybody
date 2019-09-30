@@ -16,21 +16,21 @@ public class Ex5_23_InnerClass {
 }
 
 class Parcel{
-private Contents C;
-private Destination d;
-private int contentsCount =0;
-class Contents{
-private int i;
-Contents(int i){
-this.i=i;
-contentsCount++;
-}
+	private Contents C;
+	private Destination d;
+	private int contentsCount =0;
+	class Contents{
+		private int i;
+			Contents(int i){
+					this.i=i;
+					contentsCount++;
+				}
 
 
-int value(){
-return i;
-}
-}
+				int value(){
+						return i;
+				}
+		}
 class Destination{
 private String label;
 Destination( String whereTo){
